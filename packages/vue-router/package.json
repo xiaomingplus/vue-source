@@ -22,8 +22,8 @@
     "routing"
   ],
   "scripts": {
-    "dev": "node examples/server.js",
-    "dev:dist": "rollup -wm -c build/rollup.dev.config.js",
+    "_dev": "node examples/server.js",
+    "dev": "rollup -wm -c build/rollup.dev.config.js",
     "build": "node build/build.js",
     "lint": "eslint src examples",
     "test": "npm run lint && flow check && npm run test:unit && npm run test:e2e && npm run test:types",

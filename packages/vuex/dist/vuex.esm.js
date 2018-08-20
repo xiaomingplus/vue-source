@@ -1,6 +1,6 @@
 /**
  * vuex v3.0.1
- * (c) 2017 Evan You
+ * (c) 2018 Evan You
  * @license MIT
  */
 var applyMixin = function (Vue) {
@@ -929,3 +929,4 @@ var index_esm = {
 
 export { Store, install, mapState, mapMutations, mapGetters, mapActions, createNamespacedHelpers };
 export default index_esm;
+//# sourceMappingURL=vuex.esm.js.map

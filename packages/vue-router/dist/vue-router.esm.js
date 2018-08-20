@@ -1,6 +1,6 @@
 /**
   * vue-router v3.0.1
-  * (c) 2017 Evan You
+  * (c) 2018 Evan You
   * @license MIT
   */
 /*  */
@@ -2621,3 +2621,4 @@ if (inBrowser && window.Vue) {
 }
 
 export default VueRouter;
+//# sourceMappingURL=vue-router.esm.js.map
