@@ -1,7 +1,6 @@
 {
   "packages": [
-    "packages/*",
-    "packages/@vue/*"
+    "packages/*"
   ],
   "version": "0.0.0"
 }
