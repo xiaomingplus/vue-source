@@ -8,7 +8,8 @@
     "test": "yarn lint && jest --env node",
     "lint": "eslint lib test --fix",
     "build": "webpack --config example/webpack.config.js --hide-modules",
-    "dev": "webpack-dev-server --config example/webpack.config.js --inline --hot",
+    "dev": "webpack --config example/webpack.config.js --hide-modules",
+    "dev:server": "webpack-dev-server --config example/webpack.config.js --inline --hot",
     "docs": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
